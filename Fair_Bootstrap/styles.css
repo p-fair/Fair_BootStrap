@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+  padding:0px;
+  margin:0px;
+}
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 77px;
+  font-weight:700;
+  letter-spacing: 3px;
+  color:white;
+  line-height: 87px;
+}
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 57px;
+  font-weight:600;
+  letter-spacing: 3px;
+  line-height: 67px;
+  text-align: center;
+  padding-bottom: 30px;
+  color:red !important;
+}
+h3 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 47px;
+  font-weight:500;
+  letter-spacing: 3px;
+  line-height: 57px;
+  text-align: center;
+  padding-bottom: 30px;
+  color:red !important;
+}
+.homepar {
+font-family: 'Oswald', sans-serif;
+  color:white;
+  font-size:20px;
+  font-weight:100px;
+  letter-spacing: 2px;
+}
+blockquote {
+  font-size:20px;
+  line-height:28px;
+}
+a {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color:red;
+  font-size:17px;
+}
+.nav-link {
+  display:inline-flex !important;
+  padding: 30px;
+  margin-top: 30px;
+  color:red !important;
+}
+.nav-bar {
+  background-color:black;
+}
+a:hover {
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  color:red;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+  font-size:18px;
+}
+.btn {
+    font-family: 'Oswald', sans-serif;
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+.btn:hover {
+  background-color:white;
+  color:red;
+}
+/* Home Page Images Style */
+.jumbotron {
+  margin:0px;
+  padding:0px;
+  background-image: url("DonDuckPeggy.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;
+  height:100%;
+  max-width:100%;
+  position:relative;
+}
+.jumbotext {
+  margin:250px 0px 400px 60px;
+}
+.descrip {
+  font-family: 'Oswald', sans-serif;
+  color:white;
+  font-size:20px;
+  letter-spacing: 2px;
+}
+.thumbnail {
+  width:500px;
+  height:350px;
+}
+.falling {
+ background-image: url("FallingMan.jpg");
+ background-position:center;
+ background-size:1000px;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+.caption {
+   color:red;
+   font-size:20px;
+}
+.logo {
+   display:none;
+}
+@media all and (max-width: 700px)
+{
+.jumbotron {
+  background-image:none;
+  background-color:black;
+}
+.logo {
+   display: inline;
+}
+ .falling {
+   background-image:none;
+ }
+/* The navigation bar */
+/* Add a black background color to the top navigation */
